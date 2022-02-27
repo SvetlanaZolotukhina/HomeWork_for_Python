@@ -6,6 +6,6 @@ with open("file_1.txt", "w") as file:
         file.write(a + "\n")
         if not a:
             break
-# with open("file_1.txt", "r") as file:
-#     content = file.read()
-#     print(content)
+with open("file_1.txt", "r") as file:
+    content = file.read()
+    print(content)

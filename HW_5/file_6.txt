@@ -3,3 +3,4 @@ Fizic: 30 0 10
 Sport: 0 30 0
 English: 100 120 200
 Russian: 100 150 240
+Work: 50 0 10

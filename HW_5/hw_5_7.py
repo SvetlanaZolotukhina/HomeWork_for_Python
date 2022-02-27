@@ -37,7 +37,7 @@ with open('file_7.txt', 'r') as file:
     end_list.append(profit)
     end_list.append(pr)
     print('Прибыль каждой компании за отчетный период составила: ', end_list)
-
+print()
 with open('file_7.json', 'w') as file_js:
     json.dump(end_list, file_js)
     js_str = json.dumps(end_list)

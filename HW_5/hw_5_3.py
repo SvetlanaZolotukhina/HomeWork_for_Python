@@ -4,6 +4,7 @@
 # Пример файла:
 # Иванов 23543.12
 # Петров 13749.32
+#
 with open("file_3.txt", "r") as file:
     name_1 = []
     lines = file.read().split()

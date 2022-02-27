@@ -7,3 +7,4 @@ Humster 65298.00
 Parrot 19985.23
 Rabbit 24159.32
 Sheep 15143.20
+Sheeps 15141.20

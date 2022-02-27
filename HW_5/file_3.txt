@@ -1,0 +1,10 @@
+Dog 22569.25
+Cat 19998.26
+Pig 20157.21
+Kitten 18274.12
+Puppy 22998.54
+Humster 65298.00
+Parrot 19985.23
+Rabbit 24159.32
+Sheep 15143.20
+Sheeps 15141.20

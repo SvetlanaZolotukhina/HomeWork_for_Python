@@ -1,0 +1,5 @@
+Inform: 100 50 20
+Fizic: 30 0 10
+Sport: 0 30 0
+English: 100 120 200
+Russian: 100 150 240

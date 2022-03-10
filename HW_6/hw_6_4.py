@@ -22,15 +22,17 @@ class Car:
     def turn_right (self):
         return f'{self.name} повернула направо'
     def show_speed(self):
-        return f'Текущая скорость {self.name} равна {self.speed}'
-class TownCar(Car):
-    def __init__(self, speed, color, name, is_police):
-        super().__init__(speed, color, name, is_police)
-        print(f'Текущая скорость городского автомобиля {self.name} равна {self.speed}')
         if self.speed > 60:
             print(f'Скорость {self.name} превышает допустимую для данного типа транспорта.')
         else:
             print(f'Скорость {self.name} в норме.')
+        return f'Текущая скорость {self.name} равна {self.speed}'
+class TownCar(Car):
+
+    def __init__(self, speed, color, name, is_police):
+        super().__init__(speed, color, name, is_police)
+        print(f'Текущая скорость городского автомобиля {self.name} равна {self.speed}')
+
 class SportCar(Car):
     def __init__(self, speed, color, name, is_police):
         super().__init__(speed, color, name, is_police)
